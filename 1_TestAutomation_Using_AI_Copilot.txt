@@ -1,0 +1,93 @@
+
+
+
+
+Framework : Cucumber, POM  & page factory, with Maven project
+
+Part-1 : Manual
+======
+Pre-requisite: Use a project template with the following components for the Cucumber-POM framework
+1) Pages package
+2) Utility package
+3) StepDef package
+4) Runner package
+5) Features folder
+
+Automate the below scenario by creating feature file, step def file, page file, base class for launch browser.
+
+Scenario : Login with valid credentials
+
+Instructions:
+1) To capture the time taken, take a screenshot from system clock at the start of the work & after successfully completing it.
+
+
+Part-2 : Using AI copilot
+======
+
+Pre-requisite: Use a project template with the following components for the Cucumber-POM framework
+1) Pages package
+2) Utility package
+3) StepDef package
+4) Runner package
+5) Features folder
+
+Instructions:
+1) To capture the time taken, take a screenshot from system clock at the start of the work & after successfully completing it.
+2) 
+
+Scenario : Login with valid credentials
+
+Name of the files to be created
+1) Feature File : write a prompt and get the file created from AI copilot
+2) StepDef file : write a prompt and get the file created from AI copilot
+3) utiities base class : do manually
+4) Runner file: do manually
+5) Pages : write a prompt and get the file created from AI copilot
+
+
+
+Reporsitory Name : Test_Automation_Using_AI_Copilots
+1) ZIP of the project where automation script development was done manually 
+2) ZIP of the project where automation script development was using AI copilot
+3) 4 Screenshots of timestamp
+4) AI Prompt used
+5) Assignment Description
+
+Email : 
+1) Github Link
+2) Time taken - manual automation script development
+3) Time taken - script development using AI copilot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Pages
+2) Tests
+2.1) Create 2 test methods:
+	i) login with valid login credentials
+	ii) login with invalid login credentials
+
+
+2.2) In before method launch browser
+2.3) Screenshot : take screenshot in before method, after launching browser.
+take screenshot in after method, before closing browser.
+
+3) Utilities : 
+3.1) Base class: Create following methods:
+	i) Screenshots
+	ii) Launch chrome
+	iii) Launch edge :(Use 2 Drivers - chrome & edge): 
+             The 2 test methods created in 2.1) should be launched in both chrome & edge browsers.
+
+
